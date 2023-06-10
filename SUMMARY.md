@@ -1,5 +1,11 @@
 # Table of contents
 
+## Group 1
+
 * [Setup](README.md)
-* [Fixing Animations](page-2.md)
-* [Team Config](team-config.md)
+* [Fixing Animations](group-1/fixing-animations.md)
+* [Team Config](group-1/team-config.md)
+
+## Developer Resources
+
+* [Resources](developer-resources/resources.md)
