@@ -1,10 +1,10 @@
 # Table of contents
 
-## Group 1
+## Basic Setup
 
 * [Setup](README.md)
-* [Fixing Animations](group-1/fixing-animations.md)
-* [Team Config](group-1/team-config.md)
+* [Fixing Animations](basic-setup/fixing-animations.md)
+* [Team Config](basic-setup/team-config.md)
 
 ## Developer Resources
 
