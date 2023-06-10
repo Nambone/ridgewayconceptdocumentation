@@ -1,5 +1,5 @@
 # Table of contents
 
 * [Setup](README.md)
-* [Fixing Animations](fixing-animations.md)
+* [Fixing Animations](page-2.md)
 * [Team Config](team-config.md)

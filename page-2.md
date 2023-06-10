@@ -2,11 +2,11 @@
 
 ### What you'll need:[​](https://ags816710.github.io/rcd/docs/fixingAnimations#what-youll-need) <a href="#what-youll-need" id="what-youll-need"></a>
 
-\- [Basic Map Setup](https://ags816710.github.io/rcd/docs/setup)
+\- [Basic Map Setup](https://larkson.gitbook.io/ridgeway-concepts-documentation/)
 
 * Make sure to have this **before** trying to do anything else!
 
-\- [conceptsanimations.zip](https://github.com/ags816710/rwResources/raw/main/resources/conceptsanimations.zip)
+\- [Animations File](https://cdn.discordapp.com/attachments/872658577502908466/1117124875572760646/conceptsanimations.zip)
 
 * You **will** need this to be able to do anything animation related.
 
@@ -20,7 +20,7 @@ Drag and drop **ONE** animation into the game (anywhere will do)
 
 #### Step 2:[​](https://ags816710.github.io/rcd/docs/fixingAnimations#step-2) <a href="#step-2" id="step-2"></a>
 
-Once inserted, right click on it, click save to roblox.
+Once inserted, right-click on it, and click save to Roblox.
 
 #### Step 3:[​](https://ags816710.github.io/rcd/docs/fixingAnimations#step-3) <a href="#step-3" id="step-3"></a>
 

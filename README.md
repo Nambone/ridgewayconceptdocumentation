@@ -2,7 +2,7 @@
 
 ### What you'll need:[​](https://ags816710.github.io/rcd/docs/setup#what-youll-need) <a href="#what-youll-need" id="what-youll-need"></a>
 
-\- Ridgeway Map or any higher versions: [(temporary link)](https://cdn.discordapp.com/attachments/973021949724856350/1043674319559082004/Concepts.rbxl)
+\- Ridgeway Map or any higher versions: [Download Link](https://cdn.discordapp.com/attachments/973021949724856350/1043674319559082004/Concepts.rbxl)
 
 * When downloading the map, make sure to make sure that you remember where you downloaded it to!
 
