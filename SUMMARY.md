@@ -3,7 +3,7 @@
 ## Basic Setup
 
 * [Setup](README.md)
-* [Fixing Animations](basic-setup/fixing-animations.md)
+* [Fixing Animations](page-2.md)
 * [Team Config](basic-setup/team-config.md)
 
 ## Developer Resources
