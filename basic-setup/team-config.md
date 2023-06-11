@@ -10,7 +10,7 @@ Navigate to ServerScriptService>Services>RemoteService:3225
 
 Replace whole line with:
 
-```
+```lua
 
   if Player:IsInGroup(TeamsDatabase[Value].GroupId) or Developers[Player.UserId] ~= nil then
      PlayerListService:ChangeTeam(Player, Value)
@@ -29,7 +29,7 @@ Navigate to ServerScriptService>Services>TrelloService
 
 Paste the following before the `return TrelloService` line.
 
-```
+```lua
 
 function TrelloService:GetTeamWhitelist(Player, Team)
     if cooldown[Player] then return nil end
@@ -91,8 +91,8 @@ Copy the boardId from the address bar (eg: the "boardId" in [https://trello.com/
 Go to the TrelloService module script and add your boardId into the "board" variable.\
 Format:
 
-```
-local board = "https://api.trello.com/1/boards/boardId"
+```lua
+local board = "https://api.trello.com/1/boards/boardId
 ```
 
 #### Step 7: Copy personal app key[​](https://ags816710.github.io/rcd/docs/teamConfig#step-7-copy-personal-app-key) <a href="#step-7-copy-personal-app-key" id="step-7-copy-personal-app-key"></a>
@@ -113,7 +113,7 @@ Click "Allow" and copy your token.
 Place your key in both the "getCards" and "getLists" variables.\
 Like:
 
-```
+```lua
 local getCards = board.."cards?key=KEYHERE&token=TOKENHERE"
 local getLists = board.."lists?key=KEYHERE&token=TOKENHERE"
 ```
@@ -138,7 +138,7 @@ Repeat for all of the teams/lists you need.
 For each of the teams, add them as entries into the "Lists" table. Format:\
 
 
-```
+```lua
   ["TeamNameHere_TW"] = "ListIdHere",
 ```
 
@@ -146,7 +146,7 @@ For each of the teams, add them as entries into the "Lists" table. Format:\
 
 Replace ServerScriptService>Services>RemoteService line 3229 & line 3230 to:
 
-```
+```lua
 if TrelloService:GetTeamWhitelist(Player, Value) then
     PlayerListService:ChangeTeam(Player, Value)
     Events.Alerts:FireClient(Player, "Change Team", "You have been switched to "..tostring(Value), "Blue")
@@ -159,7 +159,7 @@ end
 
 Replace ServerScriptService>Services>RemoteService line 709 until 714 with:
 
-```
+```lua
 if TrelloService:GetTeamWhitelist(Player, Team) then
     PlayerListService:ChangeTeam(Player, Team)
     MDTService.UpdateCallsign(Player, nil)
@@ -182,7 +182,7 @@ Navigate to ServerScriptService>Services>RemoteService:5027
 
 Remove ( or comment out ) the following:
 
-```
+```lua
 
 if TeamsDatabase[killer.Team.Name].IsLEO == true and TeamsDatabase[Player.Team.Name].IsLEO == true and game.PrivateServerId == "" then
     Events.Alerts:FireClient(killer, "Team Killing", "Killing other LEOs is against game rules. Continuing this behaviour will result in moderation!", "Red", true)
